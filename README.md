@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋, My name is Iheb Lafi, and I am a senior engineering student in the domain of computer science specializing in the domain of software architecture engineering. Feel free To take a look on my projects. :) 
 
 <!--
 **iheblafi/iheblafi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
