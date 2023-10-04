@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <style>
+        .word {
+            display: inline-block;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="word">About Me</h1>
+    <p class="word">
+        Hi there! I'm [Your Name], a [Your Role/Profession] based in [Your Location]. 
+        [Add a brief description about yourself, your interests, and your expertise].
+    </p>
+
+    <h2 class="word">Contact Information</h2>
+    <ul class="word">
+        <li>Email: [Your Email Address]</li>
+        <li>GitHub: [Your GitHub Username] (<a href="https://github.com/[Your GitHub Username]">Profile</a>)</li>
+        <!-- Add more contact information if desired -->
+    </ul>
+
+    <h2 class="word">Projects</h2>
+    <p class="word">
+        Here are some of the projects I'm currently working on or have contributed to:
+    </p>
+    <ul class="word">
+        <li>[Project 1]: [Brief description]</li>
+        <li>[Project 2]: [Brief description]</li>
+        <!-- Add more projects if desired -->
+    </ul>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let words = document.querySelectorAll('.word');
+
+            function revealWords() {
+                words.forEach(function(word, index) {
+                    setTimeout(function() {
+                        word.style.opacity = '1';
+                        word.style.transform = 'translateY(0)';
+                    }, index * 500); // 500ms delay for each word
+                });
+            }
+
+            revealWords();
+        });
+    </script>
+</body>
+</html>
