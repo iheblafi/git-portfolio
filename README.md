@@ -1,24 +1,16 @@
-<div id="intro">
-  <h1>About Me</h1>
-  <p id="intro-paragraph"></p>
-</div>
+### Hi there 👋, My name is Iheb Lafi, and I am a senior engineering student in the domain of computer science specializing in the domain of software architecture engineering. Feel free To take a look on my projects. :) 
 
-<script>
-const introText = "Hi there! I'm [Your Name], a [Your Role/Profession] based in [Your Location]. [Add a brief description about yourself, your interests, and your expertise].";
-const paragraphElement = document.getElementById("intro-paragraph");
+<!--
+**iheblafi/iheblafi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-function displayWords(text, element) {
-  const words = text.split(' ');
+Here are some ideas to get you started:
 
-  function displayNextWord(index) {
-    if (index < words.length) {
-      element.innerHTML += words[index] + ' ';
-      setTimeout(() => displayNextWord(index + 1), 200); // Adjust the delay as needed
-    }
-  }
-
-  displayNextWord(0);
-}
-
-displayWords(introText, paragraphElement);
-</script>
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
