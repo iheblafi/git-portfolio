@@ -15,6 +15,6 @@
     <img src="https://img.shields.io/badge/LinkedIn-Iheb%20Lafi-blue?style=for-the-badge&logo=linkedin" />
   </a>
   <a href="mailto:iheb.lafi@esprit.tn">
-    <img src="https://img.shields.io/badge/Email-iheb.lafi@example.com-red?style=for-the-badge&logo=gmail" />
+    <img src="https://img.shields.io/badge/Email-iheb.lafi@esprit.tn-red?style=for-the-badge&logo=gmail" />
   </a>
 </p>
